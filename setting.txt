@@ -1,0 +1,1 @@
+{"scaglionamento":15,"oraFineLavorativa":"18:00","oraInizioLavorativa":"08:00","alertSavedReport":true,"alertControl":false,"fileAppuntamento":"appuntamenti20170923_12:19.txt","colorPalette":"Default","alertSureDeletion":true}
