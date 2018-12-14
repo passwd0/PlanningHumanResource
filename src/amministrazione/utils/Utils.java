@@ -26,6 +26,11 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.DialogPane;
 
 public class Utils {
+	//.getConnection(Utils.url+Utils.db, Utils.user, Utils.pass);
+	public final static String url = "jdbc:postgresql://localhost/";
+	public final static String db = "amministrazione";
+	public final static String user = "postgres";
+	public final static String pass = "mypassword";
 	private Controller controller;
 	public final static String[] dayOfWeek = new String[] {"Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato", "Domenica"}; 
 	public final static String[] mese = new String[] {"Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"};

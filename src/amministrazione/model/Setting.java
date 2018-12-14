@@ -5,7 +5,7 @@ import java.time.LocalTime;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Setting {z
+public class Setting {
 	private LocalTime inizioLavoro;
 	private LocalTime fineLavoro;
 	private int scaglionamento;

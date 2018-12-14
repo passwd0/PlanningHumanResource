@@ -17,6 +17,7 @@ import javafx.scene.control.Alert.AlertType;
 
 public class DBConnect {
     private static Connection conn;
+    
 
     public static Connection connect() throws SQLException{
         try {
@@ -46,7 +47,7 @@ public class DBConnect {
 			alert.getDialogPane().applyCss();
 			Node graphic = alert.getDialogPane().getGraphic();
 			alert.getDialogPane().setGraphic(graphic);
-			alert.setTitle("Avviare il Database");
+			alert.setTitle("Avviare il Database!");
 			alert.setHeaderText("Il Database protrebbe essere spento.\nAvvialo!");
 			alert.showAndWait();
 			System.exit(0);
