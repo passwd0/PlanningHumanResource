@@ -2,9 +2,9 @@ package dataset;
 
 import java.util.stream.Collectors;
 
-import amministrazione.model.Appuntamento;
-import amministrazione.utils.Utils;
 import javafx.beans.property.SimpleStringProperty;
+import planninghumanresource.model.Appuntamento;
+import planninghumanresource.utils.Utils;
 
 public class AppuntamentoDataSet {
 	private SimpleStringProperty data;

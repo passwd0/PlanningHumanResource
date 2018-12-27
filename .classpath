@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<accessrules>
+			<accessrule kind="accessible" pattern="javafx/**"/>
+		</accessrules>
+	</classpathentry>
 	<classpathentry excluding="JasperViewerFx/" kind="src" path="src"/>
 	<classpathentry excluding="template/|template/" kind="src" path="resources"/>
 	<classpathentry kind="lib" path="libs/commons-beanutils-1.9.3.jar"/>
@@ -16,6 +20,6 @@
 	<classpathentry kind="lib" path="libs/itext-2.1.7.js6.jar"/>
 	<classpathentry kind="lib" path="libs/jasperreports-6.4.1.jar"/>
 	<classpathentry kind="lib" path="libs/json-simple-1.1.jar"/>
-	<classpathentry kind="lib" path="/home/passwd/Documents/java/Amministrazione/libs/postgresql-42.1.4.jar"/>
+	<classpathentry kind="lib" path="libs/postgresql-42.1.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
